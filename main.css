@@ -63,3 +63,16 @@ h3 {
 .prices {
     text-indent: .35rem;
 }
+
+.sold {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    left: -1rem;
+    width: 100%;
+    opacity: 0.85;
+}
+
+.soccer-parent {
+    position: relative;
+}

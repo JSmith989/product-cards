@@ -34,13 +34,32 @@ img {
 
 h2 {
     text-align: center;
+    font-family: fantasy;
+    letter-spacing: .50rem;
 }
 
 .descriptor {
     text-align: justify;
+   font-family: initial;
+   padding: .30rem;
 }
 
 h3 {
     background-color: rgb(85, 84, 84);
     color: yellow;
+    letter-spacing: .35rem;
+    text-align: center;
+}
+
+
+.size {
+    text-indent: .35rem;
+}
+
+.weight {
+    text-indent: .35rem;
+}
+
+.prices {
+    text-indent: .35rem;
 }

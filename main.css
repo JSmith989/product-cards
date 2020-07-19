@@ -1,78 +1,79 @@
 * {
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #795548 ;
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    max-width: 90rem;
-    min-width: 90rem;
-    
+  background-color: #795548;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  max-width: 90rem;
+  min-width: 90rem;
 }
 
-
 .card-style {
-    background-color: #0097A7;
-    border: solid 1px grey;
-    border-radius: 2rem;
-    width: 20rem;
-    box-shadow: .5rem .5rem lightgray;
-    margin: 2rem;
-    padding: 1.25rem;
+  background-color: #0097a7;
+  border: solid 1px grey;
+  border-radius: 2rem;
+  width: 20rem;
+  box-shadow: 0.5rem 0.5rem lightgray;
+  margin: 2rem;
+  padding: 1.25rem;
 }
 
 img {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
 }
 
 h2 {
-    text-align: center;
-    font-family: fantasy;
-    letter-spacing: .50rem;
+  text-align: center;
+  font-family: fantasy;
+  letter-spacing: 0.5rem;
 }
 
 .descriptor {
-    text-align: justify;
-   font-family: initial;
-   padding: .30rem;
+  text-align: justify;
+  font-family: initial;
+  padding: 0.3rem;
 }
 
 h3 {
-    background-color: rgb(85, 84, 84);
-    color: yellow;
-    letter-spacing: .35rem;
-    text-align: center;
+  background-color: rgb(85, 84, 84);
+  color: yellow;
+  letter-spacing: 0.35rem;
+  text-align: center;
 }
 
-
 .size {
-    text-indent: .35rem;
+  text-indent: 0.35rem;
 }
 
 .weight {
-    text-indent: .35rem;
+  text-indent: 0.35rem;
 }
 
 .prices {
-    text-indent: .35rem;
+  text-indent: 0.35rem;
 }
 
 .sold {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    left: -1rem;
-    width: 100%;
-    opacity: 0.85;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  left: -1rem;
+  width: 100%;
+  opacity: 0.85;
 }
 
 .soccer-parent {
-    position: relative;
+  position: relative;
+}
+
+.sold-out {
+  color: red;
 }
